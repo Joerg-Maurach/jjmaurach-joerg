@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 //     return view('welcome');
-    return "<h1>Hallo Welt!</h1><p>Diese Seite befindet sich im Aufbau.</p>";
+    return "<h1>Hallo Welt!</h1><p>Diese Seite befindet sich im Aufbau.</p><p>(c) ".date("Y")." by J&ouml;rg Maurach</p>";
 });
